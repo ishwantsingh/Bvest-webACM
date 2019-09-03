@@ -152,7 +152,7 @@ body {
 .sub-headbar {
   width: 95%;
   height: 100%;
-  margin: 0 auto;
+  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -201,3 +201,29 @@ li span {
 }
 
 /* TIMER END*/
+
+.about {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #00bfa5;
+}
+
+.about-subdiv {
+  display: flex;
+  margin: 5rem 3%;
+}
+.about-item {
+  display: flex;
+  text-align: center;
+}
+.details {
+  text-align: center;
+}
+.image {
+  border: 1px solid black;
+  background-color: white;
+  width: 30%;
+  height: 200px;
+  margin: 0 2%;
+}
