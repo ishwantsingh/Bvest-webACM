@@ -168,6 +168,9 @@ a {
 .headbar-item {
   width: 17%;
 }
+.header {
+  text-align: center;
+}
 .links-div {
   display: flex;
   width: 17%;
@@ -226,6 +229,7 @@ li span {
   text-align: center;
 }
 .details {
+  font-size: 1.5rem;
   text-align: center;
   flex-direction: column;
 }
@@ -247,4 +251,25 @@ li span {
   height: 15rem;
   border: 1px solid black;
   margin: 2rem 1rem;
+}
+.item-text {
+  font-size: 1.5rem;
+}
+.sponsers {
+  width: 95%;
+  margin: 0 auto;
+  height: 15rem;
+  text-align: center;
+  border: 1px solid blue;
+  /* background-color: #00bfa5; */
+}
+.footer {
+  width: 95%;
+  margin: 2rem auto 0 auto;
+  border: 1px solid red;
+}
+.footer-team {
+  height: 3rem;
+  border: 1px solid green;
+  margin: 1rem auto 2rem auto;
 }
