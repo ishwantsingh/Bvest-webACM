@@ -48,14 +48,32 @@ var image8 = document.querySelector(".image-8");
 var tl = new TimelineMax({ repeat: -1, repeatDelay: 1 });
 
 //MOUSE ENTER
-tl.to(".image-1", 2, { rotationX: 360 });
-tl.to(".image-3", 3, { rotationY: 360 });
-tl.to(".image-6", 2, { rotationX: 360 });
-tl.to(".image-7", 3, { rotationY: 360 });
-tl.to(".image-4", 2, { rotationX: 360 });
-tl.to(".image-2", 3, { rotationY: 360 });
-tl.to(".image-8", 2, { rotationX: 360 });
-tl.to(".image-5", 3, { rotationY: 360 });
+tl.to(".image-1", 1.2, { rotationX: 180 });
+tl.to(".image-3", 1.2, { rotationY: 180 });
+tl.to(".image-6", 1.2, { rotationX: 180 });
+
+tl.to(".image-1", 1.2, { rotationX: 360 });
+
+tl.to(".image-7", 1.2, { rotationY: 180 });
+
+tl.to(".image-6", 1.2, { rotationX: 360 });
+
+tl.to(".image-2", 1.2, { rotationY: 180 });
+
+tl.to(".image-3", 1.2, { rotationY: 360 });
+
+tl.to(".image-8", 1.2, { rotationX: 180 });
+
+tl.to(".image-5", 1.2, { rotationY: 180 });
+
+tl.to(".image-7", 1.2, { rotationY: 360 });
+
+tl.to(".image-4", 1.2, { rotationX: 180 });
+
+tl.to(".image-2", 1.2, { rotationY: 360 });
+tl.to(".image-8", 1.2, { rotationX: 360 });
+tl.to(".image-5", 1.2, { rotationY: 360 });
+tl.to(".image-4", 1.2, { rotationX: 360 });
 
 // image1.onmouseover = function() {
 //   TweenMax.to(".image-1", 2, { rotationX: 360 });
