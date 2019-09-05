@@ -355,13 +355,17 @@ li span {
   width: 8rem;
 }
 .map {
-  width: 70%;
+  width: 80%;
   height: 30rem;
   border-radius: 4px;
 }
 .footer-team {
   height: 3rem;
   color: white;
-  border: 1px solid green;
-  margin: 1rem auto 2rem auto;
+  font-size: 1.5rem;
+  margin: 10rem auto 5rem auto;
+}
+.contact-svg {
+  height: 4rem;
+  width: 4rem;
 }
