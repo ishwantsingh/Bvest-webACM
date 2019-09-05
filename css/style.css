@@ -185,7 +185,7 @@ a {
 }
 .video {
   width: 100%;
-  height: 300px;
+  height: 400px;
   background-color: #323232;
   text-align: center;
   color: white;
@@ -199,7 +199,7 @@ a {
   text-align: center;
 }
 #head {
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
 }
 ul {
@@ -226,49 +226,51 @@ li span {
 /* TIMER END*/
 
 .about {
-  margin: 5rem auto 10rem auto;
+  margin: 3rem auto 15rem auto;
   display: flex;
   justify-content: space-between;
   background-color: #000000;
-  height: 16rem;
+  height: 30rem;
 }
 
 .about-subdiv {
   display: flex;
-  margin: 5rem 3%;
-  align-items: center;
+  margin: 2rem 3%;
+  align-items: flex-start;
 }
 .about-item {
   display: flex;
   text-align: center;
+  flex-wrap: wrap;
 }
 .details {
   color: white;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   text-align: left;
   flex-direction: column;
   margin: 0 2.5rem;
 }
 .image {
   background-color: white;
-  width: 25%;
-  margin: 0 2%;
+  width: 31%;
+  margin: 0 1%;
 }
 .images-1 {
-  height: 11.5rem;
+  height: 30rem;
 }
 .images-2 {
-  height: 11.5rem;
+  height: 30rem;
 }
 .image-1 {
-  height: 11.5rem;
+  height: 12.5rem;
 }
 .image-2 {
-  height: 5.5rem;
+  height: 8rem;
 }
 .image-7 {
-  height: 5.5rem;
+  height: 7.5rem;
   align-self: flex-end;
+  margin-bottom: 0.5rem;
 }
 .image-8 {
   height: 10rem;
@@ -277,16 +279,29 @@ li span {
 .image-3 {
   height: 8.5rem;
   align-self: flex-end;
+  margin-bottom: 0.5rem;
 }
 .image-5 {
-  height: 8.5rem;
+  height: 13rem;
 }
 .image-4 {
-  height: 3rem;
+  height: 8rem;
   align-self: center;
 }
 .image-6 {
-  height: 3rem;
+  height: 8rem;
+}
+.image-9 {
+  height: 12rem;
+}
+.image-10 {
+  height: 9rem;
+}
+.image-11 {
+  height: 11rem;
+}
+.image-12 {
+  height: 14rem;
 }
 
 .events {
@@ -295,7 +310,7 @@ li span {
   justify-content: center;
   text-align: center;
   background-color: #000000;
-  margin: 10rem auto;
+  margin: 12rem auto;
   color: white;
   font-size: 3.5rem;
 }
