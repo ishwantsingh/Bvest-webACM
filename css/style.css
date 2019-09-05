@@ -191,6 +191,7 @@ a {
   color: white;
   padding-top: 4.4rem;
   margin: 0 auto 10rem auto;
+  font-size: 2rem;
 }
 
 /* TIMER */
@@ -389,6 +390,7 @@ li span {
 .loc-svg {
   height: 12rem;
   width: 8rem;
+  margin-top: 1rem;
 }
 .map {
   width: 80%;
@@ -399,9 +401,53 @@ li span {
   height: 3rem;
   color: white;
   font-size: 1.5rem;
-  margin: 10rem auto 5rem auto;
+  margin: 12rem auto 5rem auto;
 }
 .contact-svg {
   height: 4rem;
   width: 4rem;
+}
+
+/* FLIPPING EVENTS */
+
+.flip-card {
+  background-color: transparent;
+  width: 21%;
+  height: 33rem;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  color: white;
+  transform: rotateY(180deg);
 }
