@@ -249,7 +249,7 @@ li span {
   font-size: 2.5rem;
   text-align: left;
   flex-direction: column;
-  margin: 0 2.5rem;
+  margin: 0 2.5%;
 }
 .image {
   background-color: white;
@@ -374,7 +374,7 @@ li span {
 .venue-info {
   display: flex;
   flex-direction: row;
-  margin-left: 10rem;
+  margin-left: 10%;
 }
 .venue-info-head {
   display: flex;
@@ -383,7 +383,7 @@ li span {
   justify-content: left;
   text-align: left;
   margin-top: 5.5rem;
-  margin-left: 3rem;
+  margin-left: 3%;
   width: 60%;
   height: 15rem;
 }
@@ -414,10 +414,9 @@ li span {
   background-color: transparent;
   width: 21%;
   height: 33rem;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px;
 }
 
-/* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -427,12 +426,10 @@ li span {
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
 .flip-card-front,
 .flip-card-back {
   position: absolute;
@@ -441,12 +438,10 @@ li span {
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
 .flip-card-front {
   color: black;
 }
 
-/* Style the back side */
 .flip-card-back {
   color: white;
   transform: rotateY(180deg);
