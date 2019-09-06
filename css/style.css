@@ -149,11 +149,10 @@ a {
   width: 100%;
 }
 .headbar {
-  position: fixed;
+  position: relative;
   width: 100%;
-  height: 4rem;
+  height: 3.8rem;
   background-color: black; /*primary color */
-  border-bottom: 3px solid #323232;
 }
 /*  #00bfa5 secondary color */
 .sub-headbar {
