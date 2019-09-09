@@ -40,7 +40,7 @@ var tl = new TimelineMax({ repeat: -1, repeatDelay: 1 });
 tl.to(".image-1", 1.2, { rotationX: 180 });
 tl.to(".image-3", 1.2, { rotationY: 180 });
 tl.to(".image-6", 1.2, { rotationX: 180 });
-tl.to(".image-10", 1.2, { rotationY: 180 });
+//tl.to(".image-10", 1.2, { rotationY: 180 });
 
 tl.to(".image-1", 1.2, { rotationX: 360 });
 
@@ -60,7 +60,7 @@ tl.to(".image-2", 1.2, { rotationY: 180 });
 
 tl.to(".image-3", 1.2, { rotationY: 360 });
 
-tl.to(".image-10", 1.2, { rotationY: 360 });
+//tl.to(".image-10", 1.2, { rotationY: 360 });
 
 tl.to(".image-12", 1.2, { rotationY: 360 });
 
