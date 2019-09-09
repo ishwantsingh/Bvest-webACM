@@ -324,8 +324,12 @@ li span {
   border-top-right-radius: 52px;
   /* border: 2px solid #fe0000; */
 }
-.hack-img {
+.eve-img {
   height: 24rem;
+}
+.hack-img {
+  height: 27rem;
+  width: 90%;
 }
 .hack-text {
   color: #15f4ee; /* #fe0000  */
