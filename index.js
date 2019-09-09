@@ -77,3 +77,13 @@ tl.to(".image-2", 1.2, { rotationY: 360 });
 tl.to(".image-8", 1.2, { rotationX: 360 });
 tl.to(".image-5", 1.2, { rotationY: 360 });
 tl.to(".image-4", 1.2, { rotationX: 360 });
+
+//FAQ
+
+$(document).ready(function() {
+  $(".inteai-Faquestion h2").on("click", function() {
+    $(this)
+      .next()
+      .slideToggle();
+  });
+});
