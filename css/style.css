@@ -450,3 +450,13 @@ li span {
   transform: rotateY(180deg);
   padding: 0 5%;
 }
+.arrow-box-up {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.arrow-box-down {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
