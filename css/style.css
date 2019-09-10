@@ -594,4 +594,92 @@ h2:hover {
     width: 80%;
     margin-bottom: 2rem;
   }
+  .headbar {
+    width: 70%;
+    height: 3.8rem;
+    background-color: black; /*primary color */
+    /* padding-left: 10%; */
+    /* sub */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    padding-right: 25%;
+  }
+  .links-div {
+    margin-right: 25%;
+  }
+  .footer {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+    margin-top: 10rem;
+  }
+  .venue {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+  #head {
+    font-size: 1.5rem;
+    color: white;
+  }
+  li {
+    color: white;
+    display: inline-block;
+    font-size: 0.6rem;
+    list-style-type: none;
+    padding: 1em 3%;
+    text-transform: uppercase;
+    width: 8%;
+  }
+
+  li span {
+    color: white;
+    display: block;
+    font-size: 2.5rem;
+  }
+  .image {
+    display: none;
+  }
+  .images-1 {
+    display: none;
+  }
+  .images-2 {
+    display: none;
+  }
+  .details {
+    width: 100%;
+  }
+  .image-10 {
+    display: block;
+    width: 100%;
+    height: 20rem;
+  }
+  .about-para {
+    width: 90%;
+    position: absolute;
+    margin-top: 0.5rem;
+    left: 5%;
+  }
+  .about-detail-p {
+    text-align: left;
+    font-size: 1.1rem !important;
+  }
+  .hackathon {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .hack-img {
+    width: 100%;
+    height: 20rem;
+  }
+  .hack-text-detail {
+    font-size: 1rem !important;
+    text-align: left;
+    margin: 3rem 1rem auto !important;
+  }
 }
