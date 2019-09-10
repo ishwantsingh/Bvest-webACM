@@ -369,10 +369,10 @@ li span {
 .item-text {
   font-size: 1.5rem;
 }
-.sponsers {
+.sponsors {
   width: 100%;
   margin: 0 auto;
-  margin-top: 10rem;
+  margin-top: 8rem;
   height: 55rem;
   text-align: center;
   color: white;
@@ -588,14 +588,24 @@ h2:hover {
     justify-content: center;
     text-align: center;
     background-color: #000000;
-    margin: 12rem auto;
+    margin: 2rem auto;
     color: white;
     font-size: 3.5rem;
     align-items: center;
   }
+  .events {
+    margin-bottom: 4rem;
+  }
   .flip-card {
     width: 80%;
     margin-bottom: 2rem;
+    height: 23rem;
+  }
+  .eve-img {
+    height: 17rem;
+  }
+  .sponsors {
+    margin-top: 2rem !important;
   }
   .headbar {
     width: 70%;
@@ -655,7 +665,7 @@ h2:hover {
   .venue-name {
     font-size: 1.2rem !important;
     text-align: left;
-    margin-right: 5%;
+    margin-right: 0;
   }
   #head {
     font-size: 1.5rem;
@@ -723,7 +733,7 @@ h2:hover {
     height: 20rem;
   }
   .hack-text-detail {
-    font-size: 1rem !important;
+    font-size: 1.1rem !important;
     text-align: left;
     margin: 3rem 0 auto !important;
   }
@@ -767,5 +777,5 @@ h2:hover {
   }
   .about-detail-p {
     font-size: 1.09rem !important;
-  } */
-}
+  } 
+}*/
