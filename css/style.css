@@ -185,7 +185,7 @@ a {
   width: 17%;
   flex-direction: row;
   justify-content: space-between;
-  margin-right: 6%;
+  margin-right: 8%;
   padding-right: 10%;
 }
 .logo {
@@ -264,7 +264,7 @@ li span {
 .about-para {
   width: 28%;
   position: absolute;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   left: 36.5%;
 }
 .image {
@@ -312,25 +312,25 @@ li span {
   position: relative;
   width: 48%;
   height: 15rem;
-  opacity: 0.35;
+  opacity: 0.3;
 }
 .image-10 {
   position: relative;
   width: 48%;
   height: 15rem;
-  opacity: 0.35;
+  opacity: 0.3;
 }
 .image-11 {
   position: relative;
   width: 48%;
   height: 15rem;
-  opacity: 0.35;
+  opacity: 0.3;
 }
 .image-12 {
   position: relative;
   width: 48%;
   height: 15rem;
-  opacity: 0.35;
+  opacity: 0.3;
 }
 
 .events {
