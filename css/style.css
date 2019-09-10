@@ -484,12 +484,15 @@ li span {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-content: baseline;
+
   width: 100%;
 }
 .arrow-box-down {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: baseline;
   width: 100%;
 }
 
@@ -611,12 +614,27 @@ h2:hover {
   .links-div {
     margin-right: 25%;
   }
+  .arrow-box-up {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .arrow-box-down {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .arrow-svg {
+    width: 4rem !important;
+    height: 4rem !important;
+  }
   .footer {
     width: 100%;
     text-align: center;
     color: white;
     font-size: 3.5rem;
     margin-top: 10rem;
+  }
+  .footer-team {
+    margin: 2rem auto;
   }
   .venue {
     display: flex;
@@ -637,6 +655,7 @@ h2:hover {
   .venue-name {
     font-size: 1.2rem !important;
     text-align: left;
+    margin-right: 5%;
   }
   #head {
     font-size: 1.5rem;
@@ -656,6 +675,17 @@ h2:hover {
     color: white;
     display: block;
     font-size: 2.5rem;
+  }
+  .timer {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #faq {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .box-2 {
+    margin-top: 10rem;
   }
   .image {
     display: none;
@@ -702,4 +732,40 @@ h2:hover {
     text-align: center;
     margin: 0 auto !important;
   }
+  .map {
+    width: 90%;
+    height: 20rem;
+    border-radius: 4px;
+    margin: 0 auto;
+  }
+}
+
+/* @media (max-width: 930px) {
+  .headbar {
+    width: 70%;
+    height: 3.8rem;
+    background-color: black; 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    padding-right: 5%;
+  }
+  .links-div {
+    margin-right: 5%;
+  }
+  .arrow-box-up {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .arrow-box-down {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .about-detail-p {
+    font-size: 1.09rem !important;
+  } */
 }
