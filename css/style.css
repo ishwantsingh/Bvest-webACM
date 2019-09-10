@@ -577,7 +577,7 @@ h2:hover {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .sub-event-items {
     display: flex;
     flex-direction: column !important;
