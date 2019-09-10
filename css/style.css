@@ -240,9 +240,9 @@ li span {
 .about {
   margin: 3rem auto 15rem auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #000000;
-  height: 30rem;
+  height: 35rem;
 }
 
 .about-subdiv {
@@ -258,15 +258,14 @@ li span {
 .details {
   color: white;
   font-size: 2.5rem;
-  text-align: left;
   flex-direction: column;
-  margin: 0 2.5%;
+  margin: 0 1%;
 }
 .about-para {
   width: 28%;
   position: absolute;
-  margin-top: 5rem;
-  left: 43.5rem;
+  margin-top: 2rem;
+  left: 36.5%;
 }
 .image {
   background-color: white;
@@ -362,13 +361,14 @@ li span {
   font-size: 1.5rem;
 }
 .sponsers {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   margin-top: 10rem;
-  height: 50rem;
+  height: 55rem;
   text-align: center;
   color: white;
   font-size: 3.5rem;
+  /* background-color: #202020; */
 }
 .sponser-images {
   display: flex;
