@@ -623,6 +623,21 @@ h2:hover {
     flex-direction: column;
     margin-top: 4rem;
   }
+  .venue-info {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .loc-svg {
+    margin-top: -3rem;
+  }
+  .venue-info-head {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .venue-name {
+    font-size: 1.2rem !important;
+    text-align: left;
+  }
   #head {
     font-size: 1.5rem;
     color: white;
@@ -680,6 +695,11 @@ h2:hover {
   .hack-text-detail {
     font-size: 1rem !important;
     text-align: left;
-    margin: 3rem 1rem auto !important;
+    margin: 3rem 0 auto !important;
+  }
+  .hackathon-link {
+    font-size: 1rem !important;
+    text-align: center;
+    margin: 0 auto !important;
   }
 }
