@@ -574,3 +574,24 @@ h2:hover {
 #home-button {
   display: none;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 600px) {
+  .sub-event-items {
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: #000000;
+    margin: 12rem auto;
+    color: white;
+    font-size: 3.5rem;
+    align-items: center;
+  }
+  .flip-card {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+}
