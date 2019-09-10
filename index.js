@@ -37,22 +37,22 @@ let countDown = new Date("Oct 17, 2019 00:00:00").getTime(),
 
 var tl = new TimelineMax({ repeat: -1, repeatDelay: 1 });
 
-tl.to(".image-1", 1.2, { rotationX: 180 });
+tl.to(".image-1", 1.2, { rotationY: 180 });
 tl.to(".image-3", 1.2, { rotationY: 180 });
-tl.to(".image-6", 1.2, { rotationX: 180 });
-//tl.to(".image-10", 1.2, { rotationY: 180 });
+tl.to(".image-6", 1.2, { rotationY: 180 });
+tl.to(".image-10", 1.2, { rotationY: 180 });
 
-tl.to(".image-1", 1.2, { rotationX: 360 });
+tl.to(".image-1", 1.2, { rotationY: 360 });
 
-tl.to(".image-11", 1.2, { rotationX: 180 });
+tl.to(".image-11", 1.2, { rotationY: 180 });
 
 tl.to(".image-7", 1.2, { rotationY: 180 });
 
-tl.to(".image-9", 1.2, { rotationX: 180 });
+tl.to(".image-9", 1.2, { rotationY: 180 });
 
-tl.to(".image-6", 1.2, { rotationX: 360 });
+tl.to(".image-6", 1.2, { rotationY: 360 });
 
-tl.to(".image-11", 1.2, { rotationX: 360 });
+tl.to(".image-11", 1.2, { rotationY: 360 });
 
 tl.to(".image-12", 1.2, { rotationY: 180 });
 
@@ -60,23 +60,23 @@ tl.to(".image-2", 1.2, { rotationY: 180 });
 
 tl.to(".image-3", 1.2, { rotationY: 360 });
 
-//tl.to(".image-10", 1.2, { rotationY: 360 });
+tl.to(".image-10", 1.2, { rotationY: 360 });
 
 tl.to(".image-12", 1.2, { rotationY: 360 });
 
-tl.to(".image-8", 1.2, { rotationX: 180 });
+tl.to(".image-8", 1.2, { rotationY: 180 });
 
 tl.to(".image-5", 1.2, { rotationY: 180 });
-tl.to(".image-9", 1.2, { rotationX: 360 });
+tl.to(".image-9", 1.2, { rotationY: 360 });
 
 tl.to(".image-7", 1.2, { rotationY: 360 });
 
-tl.to(".image-4", 1.2, { rotationX: 180 });
+tl.to(".image-4", 1.2, { rotationY: 180 });
 
 tl.to(".image-2", 1.2, { rotationY: 360 });
-tl.to(".image-8", 1.2, { rotationX: 360 });
+tl.to(".image-8", 1.2, { rotationY: 360 });
 tl.to(".image-5", 1.2, { rotationY: 360 });
-tl.to(".image-4", 1.2, { rotationX: 360 });
+tl.to(".image-4", 1.2, { rotationY: 360 });
 
 //FAQ
 

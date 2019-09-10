@@ -258,8 +258,8 @@ li span {
 .details {
   color: white;
   font-size: 2.5rem;
-  flex-direction: column;
-  margin: 0 1%;
+  flex-direction: row;
+  margin: 0 0.35%;
 }
 .about-para {
   width: 28%;
@@ -269,7 +269,7 @@ li span {
 }
 .image {
   background-color: white;
-  width: 31%;
+  width: 48%;
   margin: 0 1%;
 }
 .images-1 {
@@ -309,19 +309,28 @@ li span {
   height: 14rem;
 }
 .image-9 {
-  height: 14rem;
+  position: relative;
+  width: 48%;
+  height: 15rem;
+  opacity: 0.35;
 }
 .image-10 {
   position: relative;
-  width: 100%;
-  height: 30rem;
-  opacity: 0.4;
+  width: 48%;
+  height: 15rem;
+  opacity: 0.35;
 }
 .image-11 {
-  height: 14rem;
+  position: relative;
+  width: 48%;
+  height: 15rem;
+  opacity: 0.35;
 }
 .image-12 {
-  height: 14rem;
+  position: relative;
+  width: 48%;
+  height: 15rem;
+  opacity: 0.35;
 }
 
 .events {
