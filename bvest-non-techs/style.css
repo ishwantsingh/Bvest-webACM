@@ -1,0 +1,312 @@
+:root
+{
+  --primary-color: black;
+  --secondary-color: #00bfa5;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+
+
+
+
+
+
+#cover
+{
+  background: url(./Assets/cover.png) center center/cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#cover h1, h2
+{
+  color: white;
+  text-align: center;
+}
+
+#down-arrow
+{
+  position: relative;
+  animation: arrow-bounce 1s infinite;
+}
+
+
+@keyframes arrow-bounce
+{
+  0%
+  {
+    top: 0px;
+  }
+  50%
+  {
+    top: 10px;
+    color: var(--secondary-color);
+  }
+  100%
+  {
+    top: 0px;
+  }
+}
+
+
+#events
+{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+#events h1
+{
+  text-align: center;
+}
+
+
+/* Cards */
+
+
+.card {
+  height: 23rem;
+  width: 20%;
+  margin: 5rem 5%;
+  box-shadow: 5px 5px 10px 1px var(--secondary-color);
+}
+
+.card-title, .card-reveal p, .card-content span i , .card-reveal span i
+{
+  color: black;
+}
+
+
+.image-div {
+  height: 75%;
+}
+.image {
+  height: 100%;
+}
+.card-content {
+  background-color: white;
+  color: black;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5rem 5%;
+  color: black;
+}
+
+#cards-container
+{
+  color: black;
+}
+
+.footer {
+  width: 90%;
+  text-align: center;
+  color: white;
+  margin: 10rem auto 0 auto;
+  background-color: black;
+}
+
+.venue , iframe
+{
+  flex: 1;
+}
+.venue {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10rem;
+}
+.venue-info {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.venue-info-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 60%;
+  height: 15rem;
+}
+.loc-svg {
+  height: 12rem;
+  width: 8rem;
+  margin-top: 2rem;
+}
+.map {
+  width: 50%;
+  height: 30rem;
+  border-radius: 4px;
+}
+a,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+}
+
+.logo {
+  height: 50px;
+  width: 100px;
+  float: left;
+}
+
+.fa-icon
+{
+  padding: 1rem;
+}
+
+
+
+/* Media Queries */
+
+
+
+@media (max-width: 600px)
+{
+  .content-container
+  {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  } 
+
+  .card
+  {
+    width: auto;
+    margin: 0 0 5rem 0;
+  }
+
+  #navbar
+  {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .venue
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  iframe
+  {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navbar */
+
+/* .icon {
+  background: url('./Assests/images/icon.png') center center/cover;
+  height: 2rem;
+  width: 2rem;
+  display: block;
+} */
+
+/* #brand
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 0.25rem; 
+}
+
+
+#navbar
+{
+    display: flex;
+    background-color: var(--primary-color);
+    position: sticky;
+    color: #C2CCC5;
+    justify-content: space-between; 
+    z-index: 1;
+}
+
+#nav-links
+{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.nav-link
+{
+    list-style: none;
+    
+}
+
+.nav-link a
+{
+    color: #C2CCC5;
+    text-decoration: none;
+    margin: 0.25rem;
+}
+
+.nav-link a:hover
+{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 3px;
+} */
+
+
+
+
+
+
+
+
+
+
+
