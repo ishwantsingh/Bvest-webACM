@@ -1,0 +1,345 @@
+:root
+{
+  --primary-color: black;
+  --secondary-color: green;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+
+#cover
+{
+  /* background: url(./images/cover.jpg) center center/cover; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#cover-video
+{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: -999;
+  /* filter: grayscale(100%); */
+}
+
+#cover h1, h2
+{
+  text-align: center;
+  color: white;
+}
+
+#down-arrow
+{
+  position: relative;
+  animation: arrow-bounce 1s infinite;
+}
+
+
+@keyframes arrow-bounce
+{
+  0%
+  {
+    left: 0px;
+    color: black;
+  }
+  25%
+  {
+    left: 25px;
+    color: var(--secondary-color);
+  }
+
+  50%
+  {
+    left: -25px;
+    color: var(--secondary-color);
+  }
+  100%
+  {
+    left: 0px;
+    color: black;
+  }
+}
+
+
+
+
+/* Events Section */
+
+
+#events
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+
+}
+
+#events h1
+{
+  font-weight: 600;
+  font-size: 100px;
+  margin-top: 0px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.events-row
+{
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.events-graphics, .events-content
+{
+  flex: 1;
+  justify-content: center;
+}
+
+
+
+
+.events-content
+{
+  padding: 3rem;
+}
+
+.events-content-heading
+{
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 2rem;
+  color: yellow;
+}
+
+.events-content-paragraph
+{
+  font-size: 1rem;
+  font-weight: 150;
+  margin-top: 1rem;
+}
+
+
+
+.events-graphics-responsive
+{
+  display: none;
+}
+
+.events-graphics-image, .events-graphics-video
+{
+  transition: box-shadow 0.5s ease-in-out;
+  box-shadow: 5px 5px 5px 1px var(--secondary-color);
+}
+
+.events-graphics-image:hover, .events-graphics-video
+{
+  box-shadow: 5px 5px 10px 5px var(--secondary-color);
+}
+
+
+/* Footer */
+
+
+.footer {
+  width: 90%;
+  text-align: center;
+  color: white;
+  margin: 10rem auto 0 auto;
+  background-color: black;
+}
+
+.venue , iframe
+{
+  flex: 1;
+}
+.venue {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10rem;
+}
+.venue-info {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.venue-info-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 60%;
+  height: 15rem;
+}
+.loc-svg {
+  height: 12rem;
+  width: 8rem;
+  margin-top: 2rem;
+}
+.map {
+  width: 50%;
+  height: 30rem;
+  border-radius: 4px;
+}
+a,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+}
+
+.logo {
+  height: 50px;
+  width: 100px;
+  float: left;
+}
+
+.fa-icon
+{
+  padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+
+
+@media (max-width: 600px)
+{
+
+  #cover-video
+  {
+    display: none;
+  }
+
+  #cover
+  {
+    background: url(./images/cover.jpg) center center/cover;
+  }
+
+  .content-container
+  {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .card
+  {
+    width: auto;
+    margin: 0 0 5rem 0;
+  }
+
+  #navbar
+  {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .venue
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  iframe
+  {
+    display: none;
+  }
+
+
+  #events .events-row
+  {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .events-row
+  {
+    /* border: 3px solid yellow; */
+  }
+
+
+  #events h1
+  {
+    margin-top: 300px;
+  }
+
+  .events-graphics
+  {
+    display: none;
+  }
+
+  .events-content, .events-graphics-responsive
+  {
+    flex: 1;
+  }
+
+  .events-graphics-responsive
+  {
+    display: block;
+    margin-left: 0;
+  }
+
+
+  .events-graphics-responsive-image
+  {
+    margin-left: 0;
+    height: 50vh;
+    width: 100vw;
+    z-index: -999;
+
+    /* border: 5px solid yellow; */
+  }
+
+  #events
+  {
+    margin-top: -350px;
+  }
+  #events h1
+  {
+    font-size: 5rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
