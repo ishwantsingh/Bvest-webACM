@@ -202,6 +202,7 @@ a {
 
 /* TIMER */
 .timer {
+  margin-top: 5rem;
   background-color: #000000; /*black */
   text-align: center;
 }
@@ -233,7 +234,7 @@ li span {
 /* TIMER END*/
 
 .about {
-  margin: 3rem auto 15rem auto;
+  margin: 5rem auto 5rem auto;
   display: flex;
   justify-content: space-evenly;
   background-color: #000000;
@@ -334,7 +335,7 @@ li span {
   justify-content: center;
   text-align: center;
   background-color: #000000;
-  margin: 12rem auto;
+  margin: 0rem auto 5rem auto;
   color: white;
   font-size: 3.5rem;
   align-items: center;
@@ -367,7 +368,7 @@ li span {
 .sponsors {
   width: 100%;
   margin: 0 auto;
-  margin-top: 8rem;
+  margin-bottom: 5rem;
   height: 55rem;
   text-align: center;
   color: white;
@@ -382,17 +383,17 @@ li span {
 }
 .sponser-image {
   height: 14rem;
-  width: 12%;
+  width: 25%;
 }
-.microsoft {
+/* .microsoft {
   width: 30%;
-}
+} */
 .footer {
   width: 100%;
   text-align: center;
   color: white;
   font-size: 3.5rem;
-  margin-top: 10rem;
+  margin-top: 0rem;
 }
 .venue {
   display: flex;
@@ -461,7 +462,7 @@ li span {
 .flip-card-front,
 .flip-card-back {
   position: absolute;
-  width: 100%;
+  width: 95%;
   height: 100%;
   backface-visibility: hidden;
 }
@@ -749,6 +750,17 @@ h2:hover {
     height: 20rem;
     border-radius: 4px;
     margin: 0 auto;
+  }
+  .footer-team {
+    height: 3rem;
+    color: white;
+    font-size: 1rem;
+    margin: 5rem auto 5rem auto;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .footer-info-text {
+    width: 80% !important;
   }
 }
 
