@@ -590,7 +590,7 @@ h2:hover {
     align-items: center;
   }
   .events {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
   .flip-card {
     width: 80%;
@@ -601,7 +601,8 @@ h2:hover {
     height: 17rem;
   }
   .sponsors {
-    margin-top: 2rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem;
   }
   .sponser-image {
     height: 10rem;
@@ -686,6 +687,9 @@ h2:hover {
     display: block;
     font-size: 2rem;
   }
+  ul {
+    height: 10rem;
+  }
   .video {
     display: none;
   }
@@ -726,6 +730,14 @@ h2:hover {
   .about-detail-p {
     text-align: left;
     font-size: 1.1rem !important;
+  }
+  .about {
+    margin: 2rem auto 2rem auto;
+    height: 27rem;
+  }
+  .about-subdiv {
+    margin: 0rem 3%;
+    height: 23rem;
   }
   .hackathon {
     display: flex;
