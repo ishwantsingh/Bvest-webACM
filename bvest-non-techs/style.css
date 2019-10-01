@@ -1,25 +1,16 @@
-:root
-{
+:root {
   --primary-color: black;
   --secondary-color: #00bfa5;
 }
 
-*
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: white;
 }
 
-
-
-
-
-
-
-#cover
-{
+#cover {
   background: url(./Assets/cover.png) center center/cover;
   height: 100vh;
   width: 100vw;
@@ -31,53 +22,42 @@
   color: white;
 }
 
-#cover h1, h2
-{
+#cover h1,
+h2 {
   color: white;
   text-align: center;
 }
 
-#down-arrow
-{
+#down-arrow {
   position: relative;
   animation: arrow-bounce 1s infinite;
 }
 
-
-@keyframes arrow-bounce
-{
-  0%
-  {
+@keyframes arrow-bounce {
+  0% {
     top: 0px;
   }
-  50%
-  {
+  50% {
     top: 10px;
     color: var(--secondary-color);
   }
-  100%
-  {
+  100% {
     top: 0px;
   }
 }
 
-
-#events
-{
+#events {
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
 }
 
-#events h1
-{
+#events h1 {
   text-align: center;
 }
 
-
 /* Cards */
-
 
 .card {
   height: 23rem;
@@ -86,11 +66,12 @@
   box-shadow: 5px 5px 10px 1px var(--secondary-color);
 }
 
-.card-title, .card-reveal p, .card-content span i , .card-reveal span i
-{
+.card-title,
+.card-reveal p,
+.card-content span i,
+.card-reveal span i {
   color: black;
 }
-
 
 .image-div {
   height: 75%;
@@ -111,8 +92,7 @@
   color: black;
 }
 
-#cards-container
-{
+#cards-container {
   color: black;
 }
 
@@ -124,8 +104,8 @@
   background-color: black;
 }
 
-.venue , iframe
-{
+.venue,
+iframe {
   flex: 1;
 }
 .venue {
@@ -173,35 +153,26 @@ a:hover {
   float: left;
 }
 
-.fa-icon
-{
+.fa-icon {
   padding: 1rem;
 }
 
-
-
 /* Media Queries */
 
-
-
-@media (max-width: 600px)
-{
-  .content-container
-  {
+@media (max-width: 600px) {
+  .content-container {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
-  } 
+  }
 
-  .card
-  {
+  .card {
     width: auto;
     margin: 0 0 5rem 0;
   }
 
-  #navbar
-  {
+  #navbar {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -210,37 +181,15 @@ a:hover {
     padding: 2rem;
   }
 
-  .venue
-  {
+  .venue {
     display: flex;
     flex-direction: column;
   }
 
-  iframe
-  {
+  iframe {
     display: none;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Navbar */
 
@@ -299,14 +248,3 @@ a:hover {
     text-decoration: none;
     border-radius: 3px;
 } */
-
-
-
-
-
-
-
-
-
-
-
