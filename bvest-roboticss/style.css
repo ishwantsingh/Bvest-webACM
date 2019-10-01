@@ -31,6 +31,12 @@ h2 {
   font-size: 800%;
 }
 
+#cover p {
+  color: green;
+  text-align: center;
+  font-size: 200%;
+}
+
 #down-arrow {
   position: relative;
   animation: arrow-bounce 1s infinite;
@@ -181,9 +187,45 @@ a:hover {
   padding: 1rem;
 }
 
+#home-button {
+  display: none;
+}
+
 /* Media Queries */
 
 @media (max-width: 600px) {
+  #home-button {
+    display: block;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 3rem;
+  }
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  #cover h1 {
+    text-align: center;
+    font-size: 6rem;
+  }
+
+  #cover h2 {
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  #cover p {
+    text-align: center;
+    font-size: 2rem;
+  }
+
   .content-container {
     display: flex;
     flex-direction: column;
@@ -194,15 +236,6 @@ a:hover {
   .card {
     width: auto;
     margin: 0 0 5rem 0;
-  }
-
-  #navbar {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
   }
 
   .venue {
@@ -224,10 +257,6 @@ a:hover {
 
   .events-row {
     /* border: 3px solid yellow; */
-  }
-
-  #events h1 {
-    margin-top: 300px;
   }
 
   .events-graphics {
@@ -253,9 +282,6 @@ a:hover {
     /* border: 5px solid yellow; */
   }
 
-  #events {
-    margin-top: -350px;
-  }
   #events h1 {
     font-size: 5rem;
     align-content: center;
