@@ -613,7 +613,7 @@ h2:hover {
     height: 3.8rem;
     background-color: black; /*primary color */
     /* padding-left: 10%; */
-    /* sub */
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
