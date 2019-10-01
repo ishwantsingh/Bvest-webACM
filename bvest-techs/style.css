@@ -189,15 +189,41 @@ a:hover {
   padding: 1rem;
 }
 
+#home-button {
+  display: none;
+}
+
 /* Media Queries */
 
 @media (max-width: 600px) {
+  #home-button {
+    display: block;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 3rem;
+  }
+  #home-button-anchor {
+    color: white;
+  }
+
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
   #cover-video {
     display: none;
   }
 
   #cover {
     background: url(./images/cover.jpg) center center/cover;
+    text-align: center;
   }
 
   .content-container {
@@ -210,15 +236,6 @@ a:hover {
   .card {
     width: auto;
     margin: 0 0 5rem 0;
-  }
-
-  #navbar {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
   }
 
   .venue {
@@ -243,7 +260,8 @@ a:hover {
   }
 
   #events h1 {
-    margin-top: 300px;
+    margin-top: 400px;
+    text-align: center;
   }
 
   .events-graphics {
