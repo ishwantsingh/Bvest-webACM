@@ -704,7 +704,9 @@ h2:hover {
     width: 100% !important;
     margin: 0 auto;
   }
-
+  .intelai-faq {
+    margin-top: -30rem !important;
+  }
   .box-2 {
     margin-top: 10rem;
   }
