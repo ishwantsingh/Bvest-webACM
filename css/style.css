@@ -385,6 +385,9 @@ li span {
   height: 14rem;
   width: 25%;
 }
+.corbett {
+  background-color: white;
+}
 /* .microsoft {
   width: 30%;
 } */
@@ -701,6 +704,7 @@ h2:hover {
     width: 100% !important;
     margin: 0 auto;
   }
+
   .box-2 {
     margin-top: 10rem;
   }
