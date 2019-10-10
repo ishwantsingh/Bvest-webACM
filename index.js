@@ -24,6 +24,7 @@ let countDown = new Date("Oct 10, 2019 00:00:00").getTime(),
 
     //   when timer is reached
     if (distance < 0) {
+      console.log("distance", distance);
       clearInterval(x);
       ("BVEST IS HERE");
     }
